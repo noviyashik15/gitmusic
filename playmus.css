@@ -1,7 +1,12 @@
 * {  padding: 0;  margin: 0;
   box-sizing: border-box;
 }
-body { 
+body { background: radial-gradient(rgb(55, 255, 0), blue);
+  min-height: 100vh;
+  overflow: hidden;
+	background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
